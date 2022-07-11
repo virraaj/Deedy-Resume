@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Deedy - One Page Two Column Resume
 % LaTeX Template
-% Version 1.2 (16/9/2014)
+% Version 1.1 (30/4/2014)
 %
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
@@ -44,13 +44,15 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \documentclass[]{deedy-resume-openfont}
-\usepackage{fancyhdr}
- 
-\pagestyle{fancy}
-\fancyhf{}
- 
+
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,15 +60,17 @@
 %     LAST UPDATED DATE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+
+
+\namesection{}{Viraj Shah}{ \href{mailto:}{virajshah.vs@gmail.com} | +4915227432369\\  \hfill
+\smash{\includegraphics[width=3 cm]{2.jpg}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,83 +79,75 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth} 
+\begin{minipage}[t]{0.32\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education} 
-
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\section{Persönliche Daten}
+\descript{14.04.1994 | Mumbai, Indien}
+\location{AltePoststrasse 6A, Uhldingen-Mühlhofen, 88690}
+\href{http://www.linkedin.com/in/virajshahvs}{www.linkedin.com/in/virajshahvs/}\\
+\href{http://github.com/virraaj}{www.github.com/virraaj}\\
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
+\section{Ausbildungsweg}
+\subsection{Hochschule Ravensburg-Weingarten (HRW)}
+\descript{MASTER-Studiengang Electrical Engineering and Embedded Systems}
+\location{Sept 2017 - Okt 2019}
 \sectionsep
 
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+
+\subsection{DJSCE-Mumbai Universität}
+\descript{BACHELOR-Studiengang Electronics Engineering}
+\location{August 2012 - Juni 2016  Maharashtra, Indien}
+
+\location{ Cum. GPA: 7.09 / 10.0 }
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{}
+%\subsection{Open-Source Gelegenheitsbeiträge}
+%Linux-stable\\
+%SWUpdate\\
+%fbg\\
+%elbe\\
+%Deutsch als Fremdsprache B1 \\
+%Autonomous Mobile Robots
+%\sectionsep
 
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
+%subsection{Undergraduate}
+%Embedded Systems Design \\
+%Artificial Intelligence \\
+%C-MOS VLSI Design\\
+%Microcontroller and Applications \\
+%Design with Linear Integrated Circuits \\
+%Microprocessors and Peripherals\\
 
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
-\sectionsep
+\section{Sprachen}
+\descript{Fliessend\textcolor{black}{:}} English,Hindi
+
+\descript{Fortgesschritten\textcolor{black}{:}} Gujarati,Marathi
+
+\descript{Anfänger\textcolor{black}{:}} Deutsch (B1)
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -167,77 +163,125 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\section{Praktische Erfahrung}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\runsubsection{Linutronix}
+\descript{| Embedded-Linux Software Entwickler }
+\location{ November 2019 - heute | Überlingen, Deutschland}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\begin{tightemize}
+\item Erstellung von Board Support Packages (inkl. bootloader, kernel und RFS) im Linux.\\
+\item Entwicklung von Linux treibern.\\
+\item Open-Source Gelegentlichesbeiträge: Linux, swupdate, fbg, elbe, pandoc, usw. \\
+\end{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Diehl-Defence}
+\descript{| Masterarbeit }
+\location{Mai 2019 - Oktober 2019 | Überlingen, Deutschland}
+
+\begin{tightemize}
+\item Automatisches Person folgende System.\\
+->Person Erkennung und Obstacle avoidance.\\
+Verwendete Hardware: Nvidia Xavier GPU,ZED Stereo Kamera;\\
+ Programmiersprache: ROS  Python, C++
+\end{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Diehl-Defence}
+\descript{| Projekt Praktikant }
+\location{Oktober 2018 - April 2019 | Überlingen, Deutschland}
+
+\begin{tightemize}
+\item Projektarbeit an unbemannten Fahrzeug.\\
+-> Entwickeln ROS nodes für GPS, IMU.\\
+Verwendete Hardware: Raspberry Pi, Beaglebone Blue, GPS Emphänger, IMU;\\
+ Programmiersprache: ROS C++, Python
+\end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+%\runsubsection{CoE-CNDS, VJTI}
+%\descript{| Forschung Praktikant }
+%\location{Juli 2016 – November 2016 | Mumbai, India}
+
+%\begin{tightemize}
+%\item Daten von Satelliten gesammelt und benutzerfreundlich angezeigt.\\
+%Verwendete Hardware: Raspberry Pi, SIM28ML;\\Programmiersprache: Python
+%\end{tightemize}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\sectionsep
+
+
+\section{ausgewählte Projekte}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{Sick Laserscanner mit ROS}
+
+\location{März 2018 – Juni 2018 | HRW}
+\begin{tightemize}
+\item Schnittstelle zwischen Raspberry Pi und Sick S300 Laserscanner mit RS422 zu USB und überprüfte Daten des Laserscanners
+\item Verwendete Hardware: Raspberry Pi 3, Sick S300 Laserscanner, RS422 zu USB
+\item Programmierfähigkeiten: ROS, Embedded C
+\end{tightemize}
+
+%\sectionsep
+
+\runsubsection{GPS-BASIERTES AUTONOMES FAHRZEUG}
+\descript{  }
+\location{August 2015 – April 2016 | DJSCE, Mumbai}
+\begin{tightemize}
+\item Entwickeln ein Roboterfahrzeug mit Raspberry Pi, GPS-Empfänger und Ultraschall Sensoren.
+\item Verwendete Hardware: Raspberry Pi, SIM28ML, HC SR04, MX 1515
+\item Programmiersprache: Python
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
-
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
-\sectionsep
+%\runsubsection{Gesten kontrollierte USB Maus}
+%\descript{}
+%\location{Juni 2015 - Juli 2015 | Eduvance, Mumbai}
+%\begin{tightemize}
+%\item Verwendet den integrierten Beschleunigungssensor, kapazitiven Sensor und entwickelte eine Maus das ändert seine Empfindlichkeit in Bezug auf die Benutzereingabe.
+%\item Verwendete Hardware: FRDM-KL25z | Programmiersprache: Embedded C
+%\end{tightemize}
+%\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
-\sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
+\section{ausgewählte Fähigkeiten}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\descript{Fortgesschritten\textcolor{black}{:}\textnormal{ Python, Raspbian, Linux Systems} }
+\descript{fortgeschrittener Anfänger\textcolor{black}{:}\textnormal{C, Embedded C, C++, Git, Latex, ROS(Robot Operating System), MATLAB}}
+\descript{Anfänger\textcolor{black}{:}\textnormal{ SystemC, RealTime}}
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
+%     SOCIETIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+\section{Ehrenamtliche Tätigkeiten}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tabular}{rll}
+2019   &  Software Entwickler  &  Rover2Mars\\
+2018    & Entwickler & Robocup-HRW\\
+2017 	& Logistics Department    & Council of Indian Students - HRW\\
+%2015   & Freiwilliger   & Make a Difference foundation \\
 
-\end{minipage} 
+\end{tabular}
+\sectionsep
+
+
+\end{minipage}
 \end{document}  \documentclass[]{article}
