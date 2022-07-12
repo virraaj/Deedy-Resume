@@ -71,6 +71,7 @@
 
 \namesection{}{Viraj Shah}{ \href{mailto:}{virajshah.vs@gmail.com} | +4915227432369\\  \hfill
 \smash{\includegraphics[width=3 cm]{2.jpg}}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,12 +87,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Persönliche Daten}
 \descript{14.04.1994 | Mumbai, Indien}
-\location{AltePoststrasse 6A, Uhldingen-Mühlhofen, 88690}
+\location{Alte Poststrasse 6A, Uhldingen-Mühlhofen, 88690}
 \href{http://www.linkedin.com/in/virajshahvs}{www.linkedin.com/in/virajshahvs/}\\
 \href{http://github.com/virraaj}{www.github.com/virraaj}\\
 \sectionsep
 
 \section{Ausbildungsweg}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \subsection{Hochschule Ravensburg-Weingarten (HRW)}
 \descript{MASTER-Studiengang Electrical Engineering and Embedded Systems}
 \location{Sept 2017 - Okt 2019}
@@ -135,11 +137,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sprachen}
-\descript{Fliessend\textcolor{black}{:}} English,Hindi
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\descript{Fliessend\textcolor{black}{:}} English,Hindi 
 
-\descript{Fortgesschritten\textcolor{black}{:}} Gujarati,Marathi
+\descript{Fortgeschritten\textcolor{black}{:}} Gujarati,Marathi
 
 \descript{Anfänger\textcolor{black}{:}} Deutsch (B1)
+\sectionsep
+\section{Ausgewählte Fähigkeiten}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\descript{Fortgeschritten\textcolor{black}{:}\textnormal{ Python, Raspbian, Linux Systems} }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\descript{Fortgeschrittener Anfänger\textcolor{black}{:}\textnormal{ C, Embedded C, C++, Git, Latex, ROS (Robot Operating System), MATLAB}}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\descript{Anfänger\textcolor{black}{:}\textnormal{ SystemC, RealTime}}
+
 
 
 
@@ -155,9 +168,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\end{minipage} 
+\end{minipage}
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
@@ -167,35 +180,35 @@
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{Linutronix}
 \descript{| Embedded-Linux Software Entwickler }
-\location{ November 2019 - heute | Überlingen, Deutschland}
+\location{ November 2019 - heute | Uhldingen-Mühlhofen, Deutschland}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 
 \begin{tightemize}
-\item Erstellung von Board Support Packages (inkl. bootloader, kernel und RFS) im Linux.\\
-\item Entwicklung von Linux treibern.\\
-\item Open-Source Gelegentlichesbeiträge: Linux, swupdate, fbg, elbe, pandoc, usw. \\
+\item Erstellung von Board Support Packages (inkl. Bootloader, Kernel und RFS) für Linux.\\
+\item Entwicklung von Linuxtreibern.\\
+\item Open-Source Gelegenheitsbeiträge: Linux, swupdate, fbg, elbe, pandoc, usw. \\
 \end{tightemize}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 
 \runsubsection{Diehl-Defence}
 \descript{| Masterarbeit }
 \location{Mai 2019 - Oktober 2019 | Überlingen, Deutschland}
 
 \begin{tightemize}
-\item Automatisches Person folgende System.\\
-->Person Erkennung und Obstacle avoidance.\\
+\item Automatisches Personenverfolgungssystem.\\
+->Personenerkennung und Obstacle Avoidance.\\
 Verwendete Hardware: Nvidia Xavier GPU,ZED Stereo Kamera;\\
  Programmiersprache: ROS  Python, C++
 \end{tightemize}
-%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 
 \runsubsection{Diehl-Defence}
 \descript{| Projekt Praktikant }
 \location{Oktober 2018 - April 2019 | Überlingen, Deutschland}
 
 \begin{tightemize}
-\item Projektarbeit an unbemannten Fahrzeug.\\
--> Entwickeln ROS nodes für GPS, IMU.\\
+\item Projektarbeit an unbemanntem Fahrzeug.\\
+-> Entwickeln ROS Nodes für GPS, IMU.\\
 Verwendete Hardware: Raspberry Pi, Beaglebone Blue, GPS Emphänger, IMU;\\
  Programmiersprache: ROS C++, Python
 \end{tightemize}
@@ -213,16 +226,17 @@ Verwendete Hardware: Raspberry Pi, Beaglebone Blue, GPS Emphänger, IMU;\\
 %\sectionsep
 
 
-\section{ausgewählte Projekte}
+\section{Ausgewählte Projekte}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{Sick Laserscanner mit ROS}
 
 \location{März 2018 – Juni 2018 | HRW}
 \begin{tightemize}
-\item Schnittstelle zwischen Raspberry Pi und Sick S300 Laserscanner mit RS422 zu USB und überprüfte Daten des Laserscanners
+\item Schnittstelle zwischen Raspberry Pi und Sick S300 Laserscanner mit RS422 zu USB und Überprüfung der Daten des Laserscanners
 \item Verwendete Hardware: Raspberry Pi 3, Sick S300 Laserscanner, RS422 zu USB
 \item Programmierfähigkeiten: ROS, Embedded C
 \end{tightemize}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 
 %\sectionsep
 
@@ -230,7 +244,7 @@ Verwendete Hardware: Raspberry Pi, Beaglebone Blue, GPS Emphänger, IMU;\\
 \descript{  }
 \location{August 2015 – April 2016 | DJSCE, Mumbai}
 \begin{tightemize}
-\item Entwickeln ein Roboterfahrzeug mit Raspberry Pi, GPS-Empfänger und Ultraschall Sensoren.
+\item Entwickeln eines Roboterfahrzeugs mit Raspberry Pi, GPS-Empfänger und Ultraschallsensoren.
 \item Verwendete Hardware: Raspberry Pi, SIM28ML, HC SR04, MX 1515
 \item Programmiersprache: Python
 \end{tightemize}
@@ -254,18 +268,7 @@ Verwendete Hardware: Raspberry Pi, Beaglebone Blue, GPS Emphänger, IMU;\\
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{ausgewählte Fähigkeiten}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-
-\descript{Fortgesschritten\textcolor{black}{:}\textnormal{ Python, Raspbian, Linux Systems} }
-\descript{fortgeschrittener Anfänger\textcolor{black}{:}\textnormal{C, Embedded C, C++, Git, Latex, ROS(Robot Operating System), MATLAB}}
-\descript{Anfänger\textcolor{black}{:}\textnormal{ SystemC, RealTime}}
-
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SOCIETIES
